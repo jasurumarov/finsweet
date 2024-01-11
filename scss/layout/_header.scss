@@ -1,0 +1,25 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+
+header {
+    background: $inky-color;
+    padding: 16px 0;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navGroup {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            ul {
+                a {
+                    color: #BBBBCB;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

@@ -18,6 +18,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
 }
 
 a {
@@ -43,4 +45,25 @@ ul {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+header {
+  background: #1C1E53;
+  padding: 16px 0;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .navGroup {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header nav .navGroup ul a {
+  color: #BBBBCB;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
 }/*# sourceMappingURL=style.css.map */
