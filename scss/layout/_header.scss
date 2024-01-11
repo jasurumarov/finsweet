@@ -13,11 +13,35 @@ header {
             align-items: center;
             gap: 40px;
             ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
                 a {
                     color: #BBBBCB;
                     font-size: 16px;
-                    font-weight: 500;
+                    font-weight: 600;
                     line-height: 28px;
+                    transition: .3s;
+                    &:hover {
+                        color: #FFF;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .nav-contactBtn {
+                padding: 16px 48px;
+                border-radius: 41px;
+                border: 2px solid rgba(244, 246, 252, 0.20);
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px;
+                transition: .3s;
+                &:hover {
+                    border: 2px solid #FFF;
                 }
             }
         }

@@ -22,6 +22,10 @@
   font-style: normal;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -47,6 +51,85 @@ ul {
   padding: 0 20px;
 }
 
+footer {
+  padding: 100px 0;
+  background: #1C1E53;
+}
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .footer-content .footer-left {
+  max-width: 517px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+}
+footer .footer-content .footer-left-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .footer-content .footer-left-title p {
+  max-width: 400px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+footer .footer-content .footer-left-contact {
+  background: #FCD980;
+  padding: 18px 36px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .footer-content .footer-left-contact h4 {
+  color: #282938;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+footer .footer-content .footer-left-contact p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .footer-content .footer-left-contact .footer-right-title {
+  max-width: 181px;
+}
+footer .footer-content .footer-left-contact .footer-right-social {
+  max-width: 133px;
+}
+footer .footer-content .footer-right {
+  max-width: 399px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+footer .footer-content .footer-right-title h2 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 14px;
+}
+footer .footer-content .footer-right-title p {
+  color: #F4F6FC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .footer-content .footer-right-social {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
 header {
   background: #1C1E53;
   padding: 16px 0;
@@ -61,9 +144,35 @@ header nav .navGroup {
   align-items: center;
   gap: 40px;
 }
+header nav .navGroup ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
 header nav .navGroup ul a {
   color: #BBBBCB;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28px;
+  transition: 0.3s;
+}
+header nav .navGroup ul a:hover {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+header nav .navGroup .nav-contactBtn {
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  transition: 0.3s;
+}
+header nav .navGroup .nav-contactBtn:hover {
+  border: 2px solid #FFF;
 }/*# sourceMappingURL=style.css.map */
