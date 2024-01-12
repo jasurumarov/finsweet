@@ -1,6 +1,8 @@
 @use '../abstracts' as *;
 @use "../abstracts" as *;
 
+
+
 .pricing-page {
   main {
     .pricing {
@@ -30,14 +32,18 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 128px;
+        transition: all .3s ease;
+
 
         .pricing-box {
+
           display: flex;
           width: 406px;
           height: 745px;
           border-radius: 12px;
           background: var(--Grey, #f4f6fc);
           margin-top: 64px;
+
 
           .pricinges {
             .pricinges:hover {

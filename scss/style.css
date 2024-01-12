@@ -601,6 +601,7 @@ header nav .navGroup .menu-btn:hover {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 128px;
+  transition: all 0.3s ease;
 }
 .pricing-page main .pricing .pricing-content .pricing-box {
   display: flex;
