@@ -284,6 +284,298 @@ header nav .navGroup .menu-btn:hover {
     display: block;
   }
 }
+.about-page main .hero .texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+  margin-top: 228px;
+  margin-bottom: 128px;
+}
+.about-page main .hero .texts .matn h4 {
+  max-width: 419px;
+  color: var(--Dark-blue, #282938);
+  /* Label 01 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+.about-page main .hero .texts .matn h1 {
+  max-width: 595px;
+  color: var(--Dark-blue, #282938);
+  /* Heading 1 */
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; /* 137.037% */
+}
+.about-page main .hero .texts .matn p {
+  max-width: 484px;
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.about-page main .hero .texts img {
+  width: 640px;
+  height: 337.053px;
+  flex-shrink: 0;
+}
+.about-page main .middle .among {
+  margin-bottom: 128px;
+  background: #f4f5f5;
+  width: 100%;
+}
+.about-page main .middle .among .twins {
+  max-width: 1280px;
+  width: 100%;
+  flex-shrink: 0;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 61px;
+}
+.about-page main .middle .among .twins .first h1 {
+  max-width: 515px;
+  color: var(--Dark-blue, #282938);
+  /* Heading 3 */
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+  margin-bottom: 16px;
+}
+.about-page main .middle .among .twins .first p {
+  max-width: 515px;
+  color: var(--Dark-blue, #282938);
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.about-page main .middle .among .twins .second h1 {
+  max-width: 515px;
+  color: var(--Dark-blue, #282938);
+  /* Heading 3 */
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+  margin-bottom: 16px;
+}
+.about-page main .middle .among .twins .second p {
+  max-width: 515px;
+  color: var(--Dark-blue, #282938);
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.about-page main .middle .among .image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.about-page main .last-section {
+  background: var(--Grey, #f4f6fc);
+}
+.about-page main .last-section .last {
+  padding: 128px 0;
+}
+.about-page main .last-section .last h1 {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+  margin-bottom: 48px;
+}
+.about-page main .last-section .last .emplooyes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.about-page main .last-section .last .emplooyes .john-smith {
+  width: 296px;
+  height: 344px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page main .last-section .last .emplooyes .john-smith img {
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+}
+.about-page main .last-section .last .emplooyes .simon-adams {
+  width: 296px;
+  height: 344px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page main .last-section .last .emplooyes .simon-adams img {
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+}
+.about-page main .last-section .last .emplooyes .Paul-Jones {
+  width: 296px;
+  height: 344px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page main .last-section .last .emplooyes .Paul-Jones img {
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+}
+.about-page main .last-section .last .emplooyes .Sara-Hardin {
+  width: 296px;
+  height: 344px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page main .last-section .last .emplooyes .Sara-Hardin img {
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1300px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .texts {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .middle .twins {
+    flex-direction: column;
+  }
+  .middle .among img {
+    max-width: 500px;
+  }
+  .last-section .last .emplooyes {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 690px) {
+  .hero .texts img {
+    max-width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  .middle .among .image2 img {
+    max-width: 320px;
+  }
+  .hero .texts .image1 img {
+    max-width: 320px;
+  }
+}
+@media (max-width: 600px) {
+  .middle .among .twins {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.home-page .hero-section {
+  background: #1C1E53;
+  padding: 128px 0;
+}
+.home-page .hero-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-page .hero-section-content .hero-left {
+  max-width: 562px;
+}
+.home-page .hero-section-content .hero-left h2 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 54px;
+  line-height: 74px;
+  margin-bottom: 24px;
+}
+.home-page .hero-section-content .hero-left p {
+  color: #BBBBCB;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 48px;
+}
+.home-page .hero-section-content .hero-left-btnGroup {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.home-page .hero-section-content .hero-left-btnGroup .work-btn {
+  padding: 16px 56px;
+  border-radius: 41px;
+  border: 1px solid #FCD980;
+  background: #FCD980;
+  color: #1B1C2B;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  transition: 0.3s;
+}
+.home-page .hero-section-content .hero-left-btnGroup .work-btn:hover {
+  background: #1C1E53;
+  color: #FCD980;
+}
+.home-page .hero-section-content .hero-left-btnGroup .pricing-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: 0.3s;
+}
+
 .pricing-page main .pricing .pricing-cardss {
   display: flex;
   flex-direction: column;
