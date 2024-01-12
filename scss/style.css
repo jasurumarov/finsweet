@@ -517,4 +517,61 @@ header nav .navGroup .menu-btn:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+.home-page .hero-section {
+  background: #1C1E53;
+  padding: 128px 0;
+}
+.home-page .hero-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-page .hero-section-content .hero-left {
+  max-width: 562px;
+}
+.home-page .hero-section-content .hero-left h2 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 54px;
+  line-height: 74px;
+  margin-bottom: 24px;
+}
+.home-page .hero-section-content .hero-left p {
+  color: #BBBBCB;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 48px;
+}
+.home-page .hero-section-content .hero-left-btnGroup {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.home-page .hero-section-content .hero-left-btnGroup .work-btn {
+  padding: 16px 56px;
+  border-radius: 41px;
+  border: 1px solid #FCD980;
+  background: #FCD980;
+  color: #1B1C2B;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  transition: 0.3s;
+}
+.home-page .hero-section-content .hero-left-btnGroup .work-btn:hover {
+  background: #1C1E53;
+  color: #FCD980;
+}
+.home-page .hero-section-content .hero-left-btnGroup .pricing-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
