@@ -1,7 +1,12 @@
 @use "../abstracts" as *;
+@use "../components " as *;
+
 
 .blog-page {
   .hero_section_title {
+    width: 949px;
+    padding-top: 128px;
+    margin: 0 auto;
     h1 {
       color: $black-color;
       text-align: center;
@@ -10,7 +15,6 @@
       font-style: normal;
       font-weight: 600;
       line-height: 64px;
-      padding: 128px 166px 16px 166px;
     }
     p {
       color: $black-color;
@@ -125,7 +129,7 @@
     }
   }
 }
-@media (max-width: 776px) {
+@media (max-width: 1000px) {
   .blog-page {
     .hero_section {
       .container {
@@ -135,8 +139,85 @@
           text-align: center;
           h1 {
             padding: 0;
-            font-size: 12px;
           }
+        }
+        .hero_section_img img {
+          width: 100%;
+        }
+      }
+    }
+    .blog_section {
+      width: 100%;
+      .blog_section_cards {
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1;
+        img:first-child {
+          width: 100%;
+        }
+        .blog_section_card {
+          h2 {
+            font-size: 22px;
+          }
+          p {
+            font-size: 14px;
+          }
+          h4 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .blog-page {
+    .container {
+      width: 100%;
+    }
+    .hero_section_title {
+      padding: 100px 40px;
+      h1 {
+        font-size: 36px;
+        padding: 5px 40xp;
+      }
+    }
+    .hero_section_info {
+      p {
+        padding: 20px 50px;
+      }
+    }
+    .blog_section {
+      .blog_section_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .blog-page {
+    .hero_section_title {
+      padding-bottom: 50px;
+      h1 {
+        font-size: 30px;
+      }
+    }
+    .hero_section_info {
+      p {
+        padding: 20px 20px;
+      }
+    }
+    .blog_section {
+      padding: 50px 0;
+      .blog_section_title {
+        h1 {
+          font-size: 36px;
+        }
+      }
+      .blog_section_cards {
+        grid-template-columns: 1fr;
+        .blog_section_card {
+          padding: 0 10px;
         }
       }
     }
