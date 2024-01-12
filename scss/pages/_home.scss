@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 @use "../components " as *;
 @use '../abstracts' as *;
-=======
 @use '../abstracts' as *;
 
 .home-page {
@@ -166,5 +164,74 @@
             }
         }
     }
+    .clients-section {
+        background: rgba(244, 246, 252, 0.5);
+        padding: 128px 0;
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            // flex-wrap: wrap;
+            .clients-left {
+                max-width: 335px;
+                h2 {
+                    color: var(--Dark-blue, #282938);
+                    font-family: Poppins600;
+                    font-size: 38px;
+                    line-height: 56px;
+                }
+                p {
+                    color: $black-color;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+            }
+            .clients-right {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                max-width: 840px !important;
+                .owl-carousel {
+                    position: relative;
+                    .item {
+                        h3 {
+                            max-width: 840px;
+                            color: $black-color;
+                            font-size: 32px;
+                            font-weight: 600;
+                            line-height: 48px; 
+                        }
+                    }
+                    .owl-nav {
+                        position: absolute;
+                    }
+                }
+                .clients-right-bottom {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .clients-profile {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        .clients-profileName {
+                            h4 {
+                                color: $black-color;
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 26px;
+                            }
+                            p {
+                                color: $black-color;
+                                font-size: 12px;
+                                font-weight: 600;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
->>>>>>> 9bfea427a87c45078f877c9352a921e06df9173c
+
