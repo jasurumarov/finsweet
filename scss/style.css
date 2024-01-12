@@ -690,23 +690,26 @@ header nav .navGroup .menu-btn:hover {
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
+  text-align: center;
 }
 .pricing-page main .pricing .pricing-cardss p {
   color: var(--Dark-blue, #282938);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
-  width: 562px;
+  max-width: 562px;
+  text-align: center;
 }
 .pricing-page main .pricing .pricing-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 128px;
+  gap: 32px;
 }
 .pricing-page main .pricing .pricing-content .pricing-box {
   display: flex;
-  width: 406px;
+  max-width: 406px;
   height: 745px;
   border-radius: 12px;
   background: var(--Grey, #f4f6fc);
@@ -855,4 +858,21 @@ header nav .navGroup .menu-btn:hover {
   font-weight: 500;
   line-height: 36px;
   margin-left: 54px;
+}
+
+@media (max-width: 1300px) {
+  .pricing-page .pricing .pricing-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 1115px) {
+  .inter .inter-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
