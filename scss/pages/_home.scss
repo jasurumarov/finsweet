@@ -1,2 +1,170 @@
+<<<<<<< HEAD
 @use "../components " as *;
 @use '../abstracts' as *;
+=======
+@use '../abstracts' as *;
+
+.home-page {
+    .hero-section {
+        background: $inky-color;
+        padding: 128px 0;
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .hero-left {
+                max-width: 562px;
+                h2 {
+                    color: #FFF;
+                    font-family: Poppins600;
+                    font-size: 54px;
+                    line-height: 74px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    color: #BBBBCB;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    margin-bottom: 48px;
+                }
+                &-btnGroup {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    .work-btn {
+                        padding: 16px 56px;
+                        border-radius: 41px;
+                        border: 1px solid #FCD980;
+                        background: #FCD980;
+                        color: #1B1C2B;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 32px;
+                        transition: .3s;
+                        &:hover {
+                            background: $inky-color;
+                            color: #FCD980;
+                        }
+                    }
+                    .pricing-btn {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        color:  #FFF;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+    .project-section {
+        padding: 58px 0 128px 0;
+        &-content {
+            .project-heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 64px;
+                h2 {
+                    color: $black-color;
+                    font-family: Poppins600;
+                    font-size: 48px;
+                    line-height: 64px;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    color: $black-color;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28px; 
+                }
+            }
+            .project-cards {
+                display: flex;
+                justify-content: center;
+                gap: 32px;
+                .project-cards-left {
+                    cursor: pointer;
+                }
+                .project-cards-right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center; 
+                    gap: 26px;      
+                    .project-card {
+                        cursor: pointer;
+                    }           
+                }
+            }
+        }
+    }
+    .product-section {
+        padding: 128px 0;
+        background: $white-color;
+        &-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h5 {
+                color: $black-color;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px; 
+                margin-bottom: 12px;
+            }
+            h2 {
+                max-width: 630px;
+                color: var(--Dark-blue, #282938);
+                text-align: center;
+                font-family: Poppins600;
+                font-size: 48px;
+                line-height: 64px;
+                margin-bottom: 48px;
+            }
+            .product-cardsGroup {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                .product-cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 32px;
+                    .product-card {
+                        padding: 48px 32px 48px 48px;
+                        max-width: 405px;
+                        background: #FFF;
+                        .product-cardIcon {
+                            width: 35px;
+                            height: 35px;
+                        }
+                        h3 {
+                            margin-top: 25px;
+                            margin-bottom: 12px;
+                            color: $black-color;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 36px;
+                        }
+                        p {
+                            color: $black-color;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 28px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+>>>>>>> 9bfea427a87c45078f877c9352a921e06df9173c
