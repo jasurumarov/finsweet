@@ -575,30 +575,23 @@ header nav .navGroup .menu-btn:hover {
   line-height: 28px;
   transition: 0.3s;
 }
-
-.pricing-page main .pricing .pricing-cardss {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 128px;
+.home-page .project-section {
+  padding: 58px 0 128px 0;
 }
-.pricing-page main .pricing .pricing-cardss h1 {
-  color: var(--Dark-blue, #282938);
+.home-page .project-section-content .project-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.home-page .project-section-content .project-heading h2 {
+  color: #282938;
+  font-family: Poppins600;
   font-size: 48px;
-  font-weight: 600;
   line-height: 64px;
 }
-.pricing-page main .pricing .pricing-cardss p {
-  color: var(--Dark-blue, #282938);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  width: 562px;
-}
-.pricing-page main .pricing .pricing-content {
+.home-page .project-section-content .project-heading a {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 128px;
   transition: all 0.3s ease;
@@ -621,137 +614,83 @@ header nav .navGroup .menu-btn:hover {
   color: var(--Dark-blue, #282938);
   font-size: 38px;
   font-weight: 600;
-  line-height: 56px;
+  line-height: 28px;
 }
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 h2 span {
-  color: var(--Royal-Blue, #2405f2);
+.home-page .project-section-content .project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.home-page .project-section-content .project-cards .project-cards-left {
+  cursor: pointer;
+}
+.home-page .project-section-content .project-cards .project-cards-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 26px;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card {
+  cursor: pointer;
+}
+.home-page .product-section {
+  padding: 128px 0;
+  background: #F4F6FC;
+}
+.home-page .product-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-page .product-section-content h5 {
+  color: #282938;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.home-page .product-section-content h2 {
+  max-width: 630px;
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+.home-page .product-section-content .product-cardsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.home-page .product-section-content .product-cardsGroup .product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.home-page .product-section-content .product-cardsGroup .product-cards .product-card {
+  padding: 48px 32px 48px 48px;
+  max-width: 405px;
+  background: #FFF;
+}
+.home-page .product-section-content .product-cardsGroup .product-cards .product-card .product-cardIcon {
+  width: 35px;
+  height: 35px;
+}
+.home-page .product-section-content .product-cardsGroup .product-cards .product-card h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  color: #282938;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.home-page .product-section-content .product-cardsGroup .product-cards .product-card p {
+  color: #282938;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-}
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 h3 {
-  color: var(--Dark-blue, #282938);
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 36px;
-}
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 p {
-  color: var(--Dark-blue, #282938);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  padding: 10px 0 78px 0;
-  width: 281px !important;
-}
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 ul {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 ul li {
-  margin-bottom: 22px;
-}
-.pricing-page main .pricing .pricing-content .pricing-box .pricinges .pricing-1 button {
-  display: flex;
-  width: 254px;
-  height: 64px;
-  padding: 15px 51px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 41px;
-  background: var(--Dark-blue, #282938);
-  color: var(--Grey, #f4f6fc);
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 32px;
-  margin-top: 79px;
-}
-.pricing-page main .pricing .pricing-content .pricing-box:hover {
-  background: #1c1e53;
-  color: #fff;
-}
-.pricing-page main .pricing .pricing-content .pricing-box:hover .pricinges .pricing-1 h2, .pricing-page main .pricing .pricing-content .pricing-box:hover .pricinges .pricing-1 h3, .pricing-page main .pricing .pricing-content .pricing-box:hover .pricinges .pricing-1 p {
-  color: #fff;
-}
-.pricing-page main .pricing .pricing-content .pricing-box:hover .pricinges .pricing-1 h2 span {
-  color: #FCD980;
-}
-.pricing-page main .pricing .pricing-content .pricing-box:hover .pricinges .pricing-1 button {
-  border-radius: 41px;
-  background: var(--Yellow, #fcd980);
-  color: #000;
-}
-.pricing-page main .inter {
-  margin-bottom: 128px;
-}
-.pricing-page main .inter .inter-box {
-  display: flex;
-}
-.pricing-page main .inter .inter-box .inter-1 {
-  text-align: left;
-}
-.pricing-page main .inter .inter-box .inter-1 h1 {
-  color: var(--Dark-blue, #282938);
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 64px;
-}
-.pricing-page main .inter .inter-box .inter-1 p {
-  color: var(--Royal-Blue, #2405f2);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  text-align: left;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-content {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-content .inter-2-img {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-content .inter-2-img p {
-  color: var(--Royal-Blue, #2405f2);
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 36px;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-content .inter-2-img p span {
-  color: var(--Dark-blue, #282938);
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 36px;
-  margin-left: 58px;
-}
-.pricing-page main .inter .inter-box .inter-2 hr {
-  border: 1px solid rgb(197, 193, 193);
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-1 p {
-  color: #2405f2;
-  color: var(--Royal-Blue, #2405f2);
-  text-align: center;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 36px;
-  gap: 54px;
-  padding: 30px 0;
-}
-.pricing-page main .inter .inter-box .inter-2 .inter-2-1 p span {
-  color: var(--Dark-blue, #282938);
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 36px;
-  margin-left: 54px;
 }/*# sourceMappingURL=style.css.map */
