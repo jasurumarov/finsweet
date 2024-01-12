@@ -58,4 +58,108 @@
             }
         }
     }
+    .project-section {
+        padding: 58px 0 128px 0;
+        &-content {
+            .project-heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 64px;
+                h2 {
+                    color: $black-color;
+                    font-family: Poppins600;
+                    font-size: 48px;
+                    line-height: 64px;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    color: $black-color;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28px; 
+                }
+            }
+            .project-cards {
+                display: flex;
+                justify-content: center;
+                gap: 32px;
+                .project-cards-left {
+                    cursor: pointer;
+                }
+                .project-cards-right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center; 
+                    gap: 26px;      
+                    .project-card {
+                        cursor: pointer;
+                    }           
+                }
+            }
+        }
+    }
+    .product-section {
+        padding: 128px 0;
+        background: $white-color;
+        &-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h5 {
+                color: $black-color;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px; 
+                margin-bottom: 12px;
+            }
+            h2 {
+                max-width: 630px;
+                color: var(--Dark-blue, #282938);
+                text-align: center;
+                font-family: Poppins600;
+                font-size: 48px;
+                line-height: 64px;
+                margin-bottom: 48px;
+            }
+            .product-cardsGroup {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                .product-cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 32px;
+                    .product-card {
+                        padding: 48px 32px 48px 48px;
+                        max-width: 405px;
+                        background: #FFF;
+                        .product-cardIcon {
+                            width: 35px;
+                            height: 35px;
+                        }
+                        h3 {
+                            margin-top: 25px;
+                            margin-bottom: 12px;
+                            color: $black-color;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 36px;
+                        }
+                        p {
+                            color: $black-color;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 28px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
