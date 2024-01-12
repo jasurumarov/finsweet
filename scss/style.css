@@ -24,6 +24,7 @@
 
 body {
   scroll-behavior: smooth;
+  margin-top: 103.6px !important;
 }
 
 a {
@@ -130,9 +131,33 @@ footer .footer-content .footer-right-social {
   gap: 26px;
 }
 
+@media (max-width: 1000px) {
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+  }
+  footer .footer-content .footer-left {
+    align-items: center;
+  }
+  footer .footer-content .footer-right {
+    align-items: center;
+  }
+}
+@media (max-width: 460px) {
+  .footer-left-contact {
+    flex-direction: column;
+  }
+}
 header {
   background: #1C1E53;
-  padding: 16px 0;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 header nav {
   display: flex;
@@ -175,4 +200,87 @@ header nav .navGroup .nav-contactBtn {
 }
 header nav .navGroup .nav-contactBtn:hover {
   border: 2px solid #FFF;
+}
+header nav .navGroup .menu-btn {
+  display: none;
+  padding: 8px 8px 3px 8px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header nav .navGroup .menu-btn:hover {
+  border: 2px solid #FFF;
+}
+
+.navbar-shrink {
+  transition: 0.3s ease-in-out;
+  padding: 14px 0 !important;
+}
+
+@media (max-width: 864px) {
+  header nav .navGroup {
+    gap: 20px;
+  }
+  header nav .navGroup ul {
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  body header nav .navGroup ul {
+    display: none;
+  }
+  body header nav .navGroup .nav-contactBtn {
+    padding: 10px 30px;
+  }
+  body header nav .navGroup .menu-btn {
+    display: block;
+  }
+  .menu-opened header nav .navGroup ul {
+    padding: 40px;
+    width: 100%;
+    background: #1C1E53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+@media (max-width: 768px) {
+  body header nav .navGroup {
+    gap: 10px;
+  }
+  body header nav .navGroup ul {
+    display: none;
+  }
+  body header nav .navGroup .nav-contactBtn {
+    padding: 8px 20px;
+  }
+  body header nav .navGroup .menu-btn {
+    display: block;
+  }
+}
+@media (max-width: 376px) {
+  body header nav .nav-siteIcon svg {
+    width: 90px;
+  }
+  body header nav .navGroup {
+    gap: 6px;
+  }
+  body header nav .navGroup ul {
+    display: none;
+  }
+  body header nav .navGroup .nav-contactBtn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  body header nav .navGroup .menu-btn {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

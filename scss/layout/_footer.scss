@@ -81,3 +81,26 @@ footer {
         }
     }
 }
+
+@media (max-width: 1000px) {
+    footer {
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 80px;
+            text-align: center;
+            .footer-left {
+                align-items: center;
+            }
+            .footer-right {
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .footer-left-contact {
+        flex-direction: column;
+    }
+}
