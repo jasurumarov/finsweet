@@ -1,1 +1,277 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
+
+.about-page {
+  main {
+    .hero {
+      .texts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 47px;
+        margin-top: 228px;
+        margin-bottom: 128px;
+        .matn {
+          h4 {
+            max-width: 419px;
+            color: var(--Dark-blue, #282938);
+            /* Label 01 */
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+          }
+          h1 {
+            max-width: 595px;
+            color: var(--Dark-blue, #282938);
+            /* Heading 1 */
+            font-family: Poppins;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 74px; /* 137.037% */
+          }
+          p {
+            max-width: 484px;
+            color: var(--Dark-blue, #282938);
+            text-align: justify;
+            /* Body 1 */
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            opacity: 0.7;
+          }
+        }
+        img {
+          width: 640px;
+          height: 337.053px;
+          flex-shrink: 0;
+        }
+      }
+    }
+    .middle {
+      .among {
+        margin-bottom: 128px;
+        background: #f4f5f5;
+        width: 100%;
+        .twins {
+          max-width: 1280px;
+          width: 100%;
+          flex-shrink: 0;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 61px;
+          .first {
+            h1 {
+              max-width: 515px;
+              color: var(--Dark-blue, #282938);
+              /* Heading 3 */
+              font-family: Poppins;
+              font-size: 38px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 56px; /* 147.368% */
+            }
+            p {
+              max-width: 515px;
+              color: var(--Dark-blue, #282938);
+              /* Body 1 */
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 28px; /* 175% */
+              opacity: 0.7;
+            }
+          }
+          .second {
+            h1 {
+              max-width: 515px;
+              color: var(--Dark-blue, #282938);
+              /* Heading 3 */
+              font-family: Poppins;
+              font-size: 38px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 56px; /* 147.368% */
+            }
+            p {
+              max-width: 515px;
+              color: var(--Dark-blue, #282938);
+              /* Body 1 */
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 28px; /* 175% */
+              opacity: 0.7;
+            }
+          }
+        }
+        .image2 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 60px;
+        }
+      }
+    }
+    .last-section {
+      background: var(--Grey, #f4f6fc);
+      .last {
+        padding: 128px 0;
+        h1 {
+          color: var(--Dark-blue, #282938);
+          text-align: center;
+          font-family: Poppins;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 64px; /* 133.333% */
+          margin-bottom: 48px;
+        }
+        .emplooyes {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 32px;
+          .john-smith {
+            width: 296px;
+            height: 344px;
+            flex-shrink: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: 168px;
+              height: 168px;
+              flex-shrink: 0;
+            }
+          }
+          .simon-adams {
+            width: 296px;
+            height: 344px;
+            flex-shrink: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: 168px;
+              height: 168px;
+              flex-shrink: 0;
+            }
+          }
+          .Paul-Jones {
+            width: 296px;
+            height: 344px;
+            flex-shrink: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: 168px;
+              height: 168px;
+              flex-shrink: 0;
+            }
+          }
+          .Sara-Hardin {
+            width: 296px;
+            height: 344px;
+            flex-shrink: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: 168px;
+              height: 168px;
+              flex-shrink: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texts {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+  .middle {
+    .twins {
+      flex-direction: column;
+      padding-top: 100px;
+    }
+    .among {
+      img {
+        max-width: 500px;
+      }
+    }
+  }
+  .last-section {
+    .last {
+      .emplooyes {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+@media (max-width: 690px) {
+  .hero {
+    .texts {
+      img {
+        max-width: 450px;
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .middle {
+    .among {
+      .image2 {
+        img {
+          max-width: 320px;
+        }
+      }
+    }
+  }
+  .hero {
+    .texts {
+      .image1 {
+        img {
+          max-width: 320px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:600px) {
+  .middle {
+    .among {
+      .twins {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
