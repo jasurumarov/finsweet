@@ -2,7 +2,16 @@
 @use '../abstracts' as *;
 @use "../abstracts" as *;
 
-
+.dark {
+  .pricing {
+    .pricing-box {
+      background: #282938 !important;
+      button {
+        background: #1c1e53 !important;
+      }
+    }
+  }
+}
 
 .pricing-page {
   main {

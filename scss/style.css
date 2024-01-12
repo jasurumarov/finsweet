@@ -23,6 +23,10 @@
   scroll-behavior: smooth;
 }
 
+.dark * {
+  color: white !important;
+}
+
 body {
   margin-top: 80.6px !important;
 }
@@ -64,6 +68,10 @@ ul {
 .back_top button svg {
   width: 60px;
   height: 60px;
+}
+
+.dark footer .footer-left-contact h4, .dark footer .footer-left-contact a {
+  color: #282938 !important;
 }
 
 footer {
@@ -215,6 +223,16 @@ header nav .navGroup .nav-contactBtn {
 header nav .navGroup .nav-contactBtn:hover {
   border: 2px solid #FFF;
 }
+header nav .navGroup #light-dark {
+  padding: 8px 8px 3px 10px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header nav .navGroup #light-dark:hover {
+  border: 2px solid #FFF;
+}
 header nav .navGroup .menu-btn {
   display: none;
   padding: 8px 8px 3px 8px;
@@ -298,6 +316,25 @@ header nav .navGroup .menu-btn:hover {
     display: block;
   }
 }
+.dark .middle .among {
+  background: #282938 !important;
+}
+.dark .last-section {
+  background: #1C1E53 !important;
+}
+.dark .last-section .john-smith {
+  background: #282938 !important;
+}
+.dark .last-section .simon-adams {
+  background: #282938 !important;
+}
+.dark .last-section .Paul-Jones {
+  background: #282938 !important;
+}
+.dark .last-section .Sara-Hardin {
+  background: #282938 !important;
+}
+
 .about-page main .hero .texts {
   display: flex;
   align-items: center;
@@ -409,7 +446,7 @@ header nav .navGroup .menu-btn:hover {
   margin-top: 60px;
 }
 .about-page main .last-section {
-  background: var(--Grey, #f4f6fc);
+  background: #f4f6fc;
 }
 .about-page main .last-section .last {
   padding: 128px 0;
@@ -532,6 +569,21 @@ header nav .navGroup .menu-btn:hover {
     padding-right: 20px;
   }
 }
+.dark .contact_box {
+  background: #282938 !important;
+}
+.dark input {
+  background: #282938;
+  border: 1px solid #fff !important;
+}
+.dark textarea {
+  background: #282938;
+  border: 1px solid #fff !important;
+}
+.dark .contact_btn {
+  border: 1px solid #fff !important;
+}
+
 .contact-page .contact_text {
   max-width: 562px;
   margin: 160px auto;
@@ -666,6 +718,25 @@ header nav .navGroup .menu-btn:hover {
     font-size: 44px;
   }
 }
+.dark {
+  background: #1C1E53;
+}
+.dark .hero-section .work-btn {
+  color: #282938 !important;
+}
+.dark .hero-section .work-btn:hover {
+  color: #FCD980 !important;
+}
+.dark .product-section {
+  background: #1C1E53 !important;
+}
+.dark .product-section .product-card {
+  background: #282938 !important;
+}
+.dark .clients-section {
+  background: rgba(244, 246, 252, 0.1) !important;
+}
+
 .home-page .hero-section {
   background: #1C1E53;
   padding: 128px 0;
@@ -1195,6 +1266,13 @@ header nav .navGroup .menu-btn:hover {
     padding: 0 10px;
   }
 }
+.dark .pricing .pricing-box {
+  background: #282938 !important;
+}
+.dark .pricing .pricing-box button {
+  background: #1c1e53 !important;
+}
+
 .pricing-page main .pricing .pricing-cardss {
   display: flex;
   flex-direction: column;

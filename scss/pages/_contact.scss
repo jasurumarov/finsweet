@@ -1,6 +1,23 @@
 @use '../abstracts' as *;
 @use "../components" as *;
 
+.dark {
+    .contact_box {
+        background: #282938 !important;
+    }
+    input {
+        background: #282938;
+        border: 1px solid #fff !important;
+    }
+    textarea {
+        background: #282938;
+        border: 1px solid #fff !important;
+    }
+    .contact_btn {
+        border: 1px solid #fff !important;
+    }
+}
+
 .contact-page{
     .contact_text{
         max-width: 562px;

@@ -2,6 +2,29 @@
 @use "../components" as *;
 @use "../abstracts" as *;
 
+.dark {
+  .middle {
+    .among {
+      background: #282938 !important;
+    }
+  }
+  .last-section {
+    background: $inky-color !important;
+    .john-smith {
+      background: #282938 !important;
+    }
+    .simon-adams {
+      background: #282938 !important;
+    }
+    .Paul-Jones {
+      background: #282938 !important;
+    }
+    .Sara-Hardin {
+      background: #282938 !important;
+    }
+  }
+}
+
 .about-page {
   main {
     .hero {
@@ -125,7 +148,7 @@
       }
     }
     .last-section {
-      background: var(--Grey, #f4f6fc);
+      background: #f4f6fc;
       .last {
         padding: 128px 0;
         h1 {

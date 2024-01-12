@@ -2,6 +2,27 @@
 @use '../abstracts' as *;
 @use '../abstracts' as *;
 
+.dark  {
+    background: $inky-color;
+    .hero-section {
+        .work-btn {
+            color: $black-color !important;
+            &:hover {
+                color: $yellow-color !important;
+            }
+        }
+    }
+    .product-section {
+        background: $inky-color !important;
+        .product-card {
+            background: $black-color !important;
+        }
+    }
+    .clients-section {
+        background: rgba(244, 246, 252, 0.1) !important;
+    }
+}
+
 .home-page {
     .hero-section {
         background: $inky-color;

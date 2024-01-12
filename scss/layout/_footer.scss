@@ -1,6 +1,16 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 
+.dark {
+    footer {
+        .footer-left-contact {
+            h4, a {
+                color: $black-color !important;
+            }
+        }
+    }
+}
+
 footer {
     padding: 100px 0;
     background: $inky-color;
