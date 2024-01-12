@@ -1,4 +1,4 @@
-@use "../components " as *;
+@use "../components" as *;
 @use '../abstracts' as *;
 @use '../abstracts' as *;
 
@@ -191,6 +191,7 @@
                 flex-direction: column;
                 gap: 40px;
                 max-width: 840px !important;
+                width: 100%;
                 .owl-carousel {
                     position: relative;
                     .item {
@@ -235,3 +236,194 @@
     }
 }
 
+@media (max-width: 1330px) {
+    .project-section {
+        .project-section-content {
+            .project-cards {
+                flex-wrap: wrap;
+                .project-cards-right {
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1245px) {
+    .hero-section {
+        .hero-section-content {
+            flex-direction: column;
+            .hero-right {
+                order: -1;
+                margin-bottom: 50px;
+            }
+            .hero-left {
+                h2 {
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                } 
+                .hero-left-btnGroup {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .clients-section {
+        .clients-section-content {
+            flex-direction: column;
+            align-items: center;
+            .clients-left {
+                h2 {
+                    text-align: center;
+                    margin-bottom: 16px;
+                }
+                p {
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .project-section {
+        .project-section-content {
+            .project-heading {
+                h2 {
+                    font-size: 34px;
+                }
+            }
+            .project-cards {
+                .project-cards-left {
+                    .project-left-img {
+                        img {
+                            max-width: 600px;
+                        }
+                    }
+                }
+            }
+            .project-cards-right {
+                img {
+                    width: 295px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .hero-section {
+        .hero-section-content {
+            .hero-right {
+                img {
+                    max-width: 450px;
+                }
+            }
+            .hero-left {
+                h2 {
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+    .project-section {
+        .project-section-content {
+            .project-cards {
+                .project-cards-left {
+                    .project-left-img {
+                        img {
+                            max-width: 420px;
+                        }
+                    }
+                }
+            }
+            .project-cards-right {
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .product-section {
+        .product-section-content {
+            h2 {
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+    }
+    .clients-section {
+        .clients-section-content {
+            .item {
+                h3 {
+                    font-size: 22px !important;
+                    line-height: 34px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-section {
+        padding: 60px 0 !important;
+        .hero-section-content {
+            .hero-left-btnGroup {
+                gap: 12px;
+                .work-btn {
+                    padding: 8px 20px !important;
+                    font-size: 14px !important;
+                }
+                .pricing-btn {
+                    gap: 4px;
+                    font-size: 14px !important;
+                }
+            }
+            .hero-right {
+                img {
+                    max-width: 320px;
+                }
+            }
+        }
+    }
+    .project-section {
+        .project-section-content {
+            .project-heading {
+                h2 {
+                    line-height: 34px;
+                    max-width: 155px;
+                }
+                a {
+                    gap: 8px;
+                    font-size: 14px;
+                }
+            }
+            .project-cards {
+                .project-cards-left {
+                    .project-left-img {
+                        img {
+                            max-width: 300px;
+                        }
+                    }
+                }
+            }
+            .project-cards-right {
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-right {
+        img {
+            max-width: 280px !important;
+        }
+    }
+}
