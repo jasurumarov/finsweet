@@ -1018,7 +1018,7 @@ header nav .navGroup .menu-btn:hover {
 }
 .home-page .product-section-content .product-cardsGroup .product-cards .product-card .product-cardIcon {
   width: 35px;
-  height: 35px;
+  height: 40px;
 }
 .home-page .product-section-content .product-cardsGroup .product-cards .product-card h3 {
   margin-top: 25px;
@@ -1050,6 +1050,7 @@ header nav .navGroup .menu-btn:hover {
   font-family: Poppins600;
   font-size: 38px;
   line-height: 56px;
+  margin-bottom: 16px;
 }
 .home-page .clients-section-content .clients-left p {
   color: #282938;
