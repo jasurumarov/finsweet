@@ -1077,6 +1077,22 @@ header nav .navGroup .menu-btn:hover {
 }
 .home-page .clients-section-content .clients-right .owl-carousel .owl-nav {
   position: absolute;
+  right: 0;
+  bottom: -105px;
+}
+.home-page .clients-section-content .clients-right .owl-carousel .owl-nav .owl-prev {
+  width: 60px;
+  border-radius: 50%;
+  background: #FFF;
+  color: #282938;
+  font-size: 40px;
+}
+.home-page .clients-section-content .clients-right .owl-carousel .owl-nav .owl-next {
+  width: 60px;
+  border-radius: 50%;
+  background: #2405F2;
+  color: white;
+  font-size: 40px;
 }
 .home-page .clients-section-content .clients-right .clients-right-bottom {
   display: flex;

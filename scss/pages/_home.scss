@@ -347,7 +347,24 @@
                         }
                     }
                     .owl-nav {
-                        position: absolute;
+                        position: absolute; 
+                        right: 0;
+                        bottom: -105px;
+                        .owl-prev {
+                            width: 60px;
+                            border-radius: 50%;
+                            background: #FFF;
+                            color: $black-color;
+                            font-size: 40px;
+
+                        }
+                        .owl-next {
+                            width: 60px;
+                            border-radius: 50%;
+                            background: $blue-color;
+                            color: white;
+                            font-size: 40px;
+                        }
                     }
                 }
                 .clients-right-bottom {
