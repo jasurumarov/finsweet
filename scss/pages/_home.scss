@@ -108,18 +108,139 @@
             .project-cards {
                 display: flex;
                 justify-content: center;
-                gap: 32px;
+                gap: 24px;
                 .project-cards-left {
-                    cursor: pointer;
+                    overflow: hidden !important;
+                    position: relative;
+                    .overlay {
+                        background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                        height: 100%;
+                        width: 48%;
+                        position: absolute;
+                        bottom: 4px;
+                        // left: 0;
+                        margin-left: -100%;
+                        padding: 0 48px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        transition: .6s ease;
+                        h3 {
+                            color: #FFF;
+                            font-family: Poppins600;
+                            font-size: 24px;
+                            line-height: 36px;
+                            margin-bottom: 16px;
+                        }
+                        p {
+                            color: #BBBBCB;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            margin-bottom: 40px;
+                        }
+                        a {
+                            color: #FCD980;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 28px; 
+                            display: flex;
+                            align-items: center;
+                            gap: 16px;
+                            margin-bottom: 76px;
+                        }
+                    }
+                    &:hover {
+                        .overlay {
+                            margin-left: 0;
+                        }
+                    }
                 }
                 .project-cards-right {
                     display: flex;
                     flex-direction: column;
                     justify-content: center; 
                     gap: 26px;      
-                    .project-card {
+                    .project-card1 {
                         cursor: pointer;
-                    }           
+                        overflow: hidden !important;
+                        position: relative;
+                        .overlay2 {
+                            background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            bottom: 4px;
+                            margin-left: -100%;
+                            padding: 0 48px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
+                            transition: .4s ease;
+                            h3 {
+                                color: #FFF;
+                                font-family: Poppins600;
+                                font-size: 24px;
+                                line-height: 36px;
+                                margin-bottom: 10px;
+                            }
+                            a {
+                                color: #FCD980;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 28px; 
+                                display: flex;
+                                align-items: center;
+                                gap: 16px;
+                                margin-bottom: 45px;
+                            }
+                        }
+                        &:hover {
+                            .overlay2 {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                    .project-card2 {
+                        cursor: pointer;
+                        overflow: hidden !important;
+                        position: relative;
+                        .overlay2 {
+                            background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            bottom: 4px;
+                            margin-left: -100%;
+                            padding: 0 48px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
+                            transition: .4s ease;
+                            h3 {
+                                color: #FFF;
+                                font-family: Poppins600;
+                                font-size: 24px;
+                                line-height: 36px;
+                                margin-bottom: 10px;
+                            }
+                            a {
+                                color: #FCD980;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 28px; 
+                                display: flex;
+                                align-items: center;
+                                gap: 16px;
+                                margin-bottom: 45px;
+                            }
+                        }
+                        &:hover {
+                            .overlay2 {
+                                margin-left: 0;
+                            }
+                        }             
+                    }
                 }
             }
         }
@@ -319,6 +440,23 @@
             }
             .project-cards {
                 .project-cards-left {
+                    .overlay {
+                        h3 {
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                        a {
+                            font-size: 14px;
+                            line-height: 20px; 
+                            gap: 10px;
+                            margin-bottom: 50px;
+                        }
+                    }
                     .project-left-img {
                         img {
                             max-width: 600px;
@@ -360,11 +498,73 @@
                             max-width: 420px;
                         }
                     }
+                    .overlay {
+                        padding: 0 20px;
+                        h3 {
+                            font-size: 12px;
+                            line-height: 16px;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-size: 8px;
+                            font-weight: 600;
+                            line-height: 10px;
+                            margin-bottom: 20px;
+                        }
+                        a {
+                            font-size: 8px;
+                            line-height: 10px; 
+                            gap: 6px;
+                            margin-bottom: 50px;
+                        }
+                    }
                 }
             }
             .project-cards-right {
                 img {
                     width: 200px;
+                }
+                .project-card1 {
+                    .overlay2 {
+                        padding: 0 24px !important;
+                        h3 {
+                            font-size: 14px !important;
+                            line-height: 16px !important;
+                            margin-bottom: 10px !important;
+                        }
+                        a {
+                            font-size: 10px !important;
+                            line-height: 10px !important; 
+                            gap: 3px !important;
+                            margin-bottom: 15px !important;
+                        }
+                    }
+                    &:hover {
+                        .overlay2 {
+                            margin-left: 0;
+                        }
+                    }
+                }
+                .project-card2 {
+                    .overlay2 {
+                        padding: 0 24px !important;
+                        h3 {
+                            font-size: 14px !important;
+                            line-height: 16px !important;
+                            margin-bottom: 10px !important;
+                        }
+                        a {
+                            font-size: 10px !important;
+                            line-height: 10px !important; 
+                            gap: 3px !important;
+                            margin-bottom: 15px !important;
+                        }
+                    }
+                    &:hover {
+                        .overlay2 {
+                            margin-left: 0;
+                        }
+                    }             
                 }
             }
         }

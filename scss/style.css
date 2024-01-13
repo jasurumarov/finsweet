@@ -845,10 +845,51 @@ header nav .navGroup .menu-btn:hover {
 .home-page .project-section-content .project-cards {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
 }
 .home-page .project-section-content .project-cards .project-cards-left {
-  cursor: pointer;
+  overflow: hidden !important;
+  position: relative;
+}
+.home-page .project-section-content .project-cards .project-cards-left .overlay {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  height: 100%;
+  width: 48%;
+  position: absolute;
+  bottom: 4px;
+  margin-left: -100%;
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.6s ease;
+}
+.home-page .project-section-content .project-cards .project-cards-left .overlay h3 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.home-page .project-section-content .project-cards .project-cards-left .overlay p {
+  color: #BBBBCB;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.home-page .project-section-content .project-cards .project-cards-left .overlay a {
+  color: #FCD980;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 76px;
+}
+.home-page .project-section-content .project-cards .project-cards-left:hover .overlay {
+  margin-left: 0;
 }
 .home-page .project-section-content .project-cards .project-cards-right {
   display: flex;
@@ -856,8 +897,81 @@ header nav .navGroup .menu-btn:hover {
   justify-content: center;
   gap: 26px;
 }
-.home-page .project-section-content .project-cards .project-cards-right .project-card {
+.home-page .project-section-content .project-cards .project-cards-right .project-card1 {
   cursor: pointer;
+  overflow: hidden !important;
+  position: relative;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card1 .overlay2 {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 4px;
+  margin-left: -100%;
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.4s ease;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card1 .overlay2 h3 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card1 .overlay2 a {
+  color: #FCD980;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 45px;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card1:hover .overlay2 {
+  margin-left: 0;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card2 {
+  cursor: pointer;
+  overflow: hidden !important;
+  position: relative;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card2 .overlay2 {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 4px;
+  margin-left: -100%;
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.4s ease;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card2 .overlay2 h3 {
+  color: #FFF;
+  font-family: Poppins600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card2 .overlay2 a {
+  color: #FCD980;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 45px;
+}
+.home-page .project-section-content .project-cards .project-cards-right .project-card2:hover .overlay2 {
+  margin-left: 0;
 }
 .home-page .product-section {
   padding: 128px 0;
@@ -1028,6 +1142,21 @@ header nav .navGroup .menu-btn:hover {
   .project-section .project-section-content .project-heading h2 {
     font-size: 34px;
   }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay a {
+    font-size: 14px;
+    line-height: 20px;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
   .project-section .project-section-content .project-cards .project-cards-left .project-left-img img {
     max-width: 600px;
   }
@@ -1046,8 +1175,62 @@ header nav .navGroup .menu-btn:hover {
   .project-section .project-section-content .project-cards .project-cards-left .project-left-img img {
     max-width: 420px;
   }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay {
+    padding: 0 20px;
+  }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay h3 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay p {
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    margin-bottom: 20px;
+  }
+  .project-section .project-section-content .project-cards .project-cards-left .overlay a {
+    font-size: 8px;
+    line-height: 10px;
+    gap: 6px;
+    margin-bottom: 50px;
+  }
   .project-section .project-section-content .project-cards-right img {
     width: 200px;
+  }
+  .project-section .project-section-content .project-cards-right .project-card1 .overlay2 {
+    padding: 0 24px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card1 .overlay2 h3 {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-bottom: 10px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card1 .overlay2 a {
+    font-size: 10px !important;
+    line-height: 10px !important;
+    gap: 3px !important;
+    margin-bottom: 15px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card1:hover .overlay2 {
+    margin-left: 0;
+  }
+  .project-section .project-section-content .project-cards-right .project-card2 .overlay2 {
+    padding: 0 24px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card2 .overlay2 h3 {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-bottom: 10px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card2 .overlay2 a {
+    font-size: 10px !important;
+    line-height: 10px !important;
+    gap: 3px !important;
+    margin-bottom: 15px !important;
+  }
+  .project-section .project-section-content .project-cards-right .project-card2:hover .overlay2 {
+    margin-left: 0;
   }
   .product-section .product-section-content h2 {
     font-size: 30px;
